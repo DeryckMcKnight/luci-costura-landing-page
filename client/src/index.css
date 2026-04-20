@@ -288,3 +288,176 @@
 .link-underline:hover::after {
   width: 100%;
 }
+
+
+/* Animações de Scroll - Transições Suaves para Seções */
+
+/* Fade in com movimento suave de baixo para cima */
+.section-fade-in {
+  animation: sectionFadeInUp 700ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes sectionFadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in com movimento suave da esquerda */
+.section-fade-in-left {
+  animation: sectionFadeInLeft 700ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes sectionFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in com movimento suave da direita */
+.section-fade-in-right {
+  animation: sectionFadeInRight 700ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes sectionFadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in com escala suave (zoom) */
+.section-fade-in-scale {
+  animation: sectionFadeInScale 700ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes sectionFadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animação para cards individuais */
+.card-fade-in {
+  animation: cardFadeIn 600ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Delays para efeito em cascata */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+/* Animação para imagens */
+.image-fade-in {
+  animation: imageFadeIn 800ms ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes imageFadeIn {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Smooth scroll behavior para toda a página */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Efeito de parallax suave para hero section */
+.hero-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Animação para títulos */
+.title-fade-in {
+  animation: titleFadeIn 800ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scaleY(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+/* Animação para listas */
+.list-item-fade-in {
+  animation: listItemFadeIn 600ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  opacity: 0;
+}
+
+@keyframes listItemFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
