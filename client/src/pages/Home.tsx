@@ -364,11 +364,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Divider */}
-      <div className="divider-purple"></div>
+      {/* Divider - DESATIVADO TEMPORARIAMENTE */}
+      <div className="divider-purple hidden"></div>
 
-      {/* Portfólio Section */}
-      <section id="portfolio" className="py-24 bg-white">
+      {/* Portfólio Section - DESATIVADO TEMPORARIAMENTE */}
+      <section id="portfolio" className="py-24 bg-white hidden">
         <div className="container">
           <h2 className="font-display-bold text-4xl mb-16 text-foreground">
             Portfólio
@@ -410,8 +410,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Divider */}
-      <div className="divider-purple"></div>
+      {/* Divider - DESATIVADO TEMPORARIAMENTE */}
+      <div className="divider-purple hidden"></div>
 
       {/* Contato Section */}
       <section id="contato" className="py-24 bg-white">
