@@ -121,8 +121,6 @@ Este projeto está configurado para deploy automático no GitHub Pages via GitHu
 
 3. **Seu site estará disponível em**: `https://DeryckMcKnight.github.io/luci-costura-landing-page`
 
-### Manus Hosting
-O site também está disponível em: `https://lucicostura-dotcqvpj.manus.space`
 
 ## Contato
 
