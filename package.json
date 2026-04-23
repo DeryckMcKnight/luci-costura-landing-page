@@ -1,5 +1,6 @@
 {
   "name": "luci-costura-landing-page",
+  "homepage": "github.com/DeryckMcKnight/luci-costura-landing-page."
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
