@@ -1,6 +1,6 @@
 {
   "name": "luci-costura-landing-page",
-  "homepage": "github.com/DeryckMcKnight/luci-costura-landing-page."
+  "homepage": "github.com/DeryckMcKnight/luci-costura-landing-page",
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
@@ -10,7 +10,9 @@
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
