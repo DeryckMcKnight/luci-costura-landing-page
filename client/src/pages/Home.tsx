@@ -445,7 +445,7 @@ export default function Home() {
                   size="lg"
                   className="btn-primary"
                   onClick={() => {
-                    window.location.href = "https://wa.me/5511999999999";
+                    window.location.href = "https://wa.me/5521974682319";
                   }}
                 >
                   <Phone className="w-4 h-4 mr-2" />
@@ -455,7 +455,7 @@ export default function Home() {
                   size="lg"
                   className="btn-outline"
                   onClick={() => {
-                    window.location.href = "mailto:contato@luci.com.br";
+                    window.location.href = "mailto:lucicrisdelima@gmail.com";
                   }}
                 >
                   <Mail className="w-4 h-4 mr-2" />
@@ -465,7 +465,7 @@ export default function Home() {
 
               <div className="flex justify-center gap-6">
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/lucicrisdelima"
                   className="link-underline text-sm flex items-center gap-2"
                 >
                   <Instagram className="w-4 h-4" />
